@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
 
 <GridPane alignment="center" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javabash.controller.Controller">
    <children>
       <Pane prefHeight="400.0" prefWidth="800.0" style="-fx-max-width: 800; -fx-max-height: 400;">
          <children>
-            <TextArea onKeyPressed="#execute" opacity="0.46" prefHeight="400.0" prefWidth="800.0" scrollTop="1000.0" />
+            <TextArea fx:id="mainFrame" onKeyPressed="#execute" prefHeight="400.0" prefWidth="800.0" scrollTop="1000.0" stylesheets="@style.css" />
          </children></Pane>
    </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
 </GridPane>

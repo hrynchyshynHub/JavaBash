@@ -1,0 +1,7 @@
+.text-area .content{
+    -fx-background-color: navy;
+}
+.text-area {
+    -fx-text-fill: greenyellow;
+    -fx-font-size: 16px;
+}
